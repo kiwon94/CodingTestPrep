@@ -120,5 +120,9 @@ int main()
     paper(N, 0, 0);
     cout << white << endl;
     cout << blue << endl;
+    for (int i = 0; i < N; i++)
+    {
+        delete M[i];
+    }
     return 0;
 }
